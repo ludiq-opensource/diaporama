@@ -2,6 +2,8 @@
 
 Visionneuse locale de photos et vidéos : glissez-déposez un dossier dans le navigateur, parcourez-le en plein écran (sous-dossiers inclus), zoomez, lancez l'autoplay. Tout se passe dans le navigateur, rien n'est envoyé.
 
+**Démo : [www.ludiq.be/diaporama](https://www.ludiq.be/diaporama/)**
+
 React 19 / Vite 6, JavaScript + JSDoc. Aucune donnée ne quitte le navigateur : pas de serveur, pas de télémétrie, fonctionne hors ligne une fois installé.
 
 Compatibilité : navigateurs desktop supportant `webkitGetAsEntry` (Chrome, Edge, Firefox, Safari). Pas de version mobile.
