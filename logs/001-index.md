@@ -6,12 +6,13 @@ Dernière mise à jour : 2026-09-07
 
 ## Racine
 
-- [README.md](../README.md) — Présentation courte du projet : lancement, raccourcis, config, formats (md). Réécrit le 2026-09-07 (remplace le template Vite).
-- [package.json](../package.json) — Dépendances (react 19, vite 6, exifr) et scripts dev/build/lint (json). Modifié le 2026-09-04 (exif-js supprimé).
+- [README.md](../README.md) — Présentation open source : lancement, confidentialité, compatibilité, raccourcis, config, contribuer, licence (md). Réécrit le 2026-09-07.
+- [LICENSE](../LICENSE) — Licence MIT, Ludiq Playground - Christophe Gossiaux (texte). Créé le 2026-09-07.
+- [package.json](../package.json) — Métadonnées (name diaporama, 1.0.0, MIT, author, repository), dépendances (react 19, vite 6, exifr), scripts (json). Modifié le 2026-09-07.
 - [package-lock.json](../package-lock.json) — Lockfile npm (json).
-- [.gitignore](../.gitignore) — Exclusions git ; modifié le 2026-09-03 pour autoriser `logs/` (texte).
+- [.gitignore](../.gitignore) — Exclusions git ; `.devin` ajouté le 2026-09-07 (règles agent non distribuées) (texte).
 - [index.html](../index.html) — Point d'entrée HTML Vite (html). Modifié le 2026-09-04 (lang fr, titre « Diaporama », favicon projet).
-- [vite.config.js](../vite.config.js) — Configuration Vite minimale (js).
+- [vite.config.js](../vite.config.js) — Configuration Vite : plugin react, `base: './'` pour un build statique déployable à tout chemin (js). Modifié le 2026-09-07.
 - [eslint.config.js](../eslint.config.js) — Configuration ESLint flat (js). Modifié le 2026-09-04 (react version detect, react/prop-types off — typage JSDoc).
 - [public/favicon.ico](../public/favicon.ico) — Favicon du projet (ico). Ajouté le 2026-09-04 (remplace vite.svg, supprimé).
 
